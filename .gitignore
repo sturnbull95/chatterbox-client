@@ -11,7 +11,7 @@ Icon
 .Spotlight-V100
 .Trashes
 
-
+client/env/config.js
 ### Node ###
 lib-cov
 *.seed

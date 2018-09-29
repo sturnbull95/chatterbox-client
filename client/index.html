@@ -25,7 +25,19 @@
   <body>
     <h1>chatterbox</h1>
     <div id="main">
-      </form>
+      <form method="post" name="form_name" id="form_id" class="form_class">
+        Message:<br>
+        <input id= "myMessage" class="text" type="text" name="message"><br>
+        Roomname:<br>
+        <select id="room" name="lobbies">
+          <option value="lobby">Lobby</option>
+          <option value="superLobby">superLobby</option>
+          <option value="suckyLobby">suckyLobby</option>
+          <option value="nullLobby">nullLobby</option>
+        </select>
+        <br><br>
+        <input id="button" type="submit" value= "Submit">
+        </form>
       <!-- Your HTML goes here! -->
     </div>
     <div id="chats"></div>

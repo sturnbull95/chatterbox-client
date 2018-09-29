@@ -51,14 +51,19 @@ form {
     padding-left: 0;
     margin-bottom: 20px;
 }
-
+#myMessage{
+  margin:auto;
+  padding:10px;
+}
 form input[type=text] {
     margin-right: 10px;
     width: 70%;
     font-size: 12px;
     padding: 5px;
 }
-
+.userName{
+  color: 'blue'
+}
 .chat {
     padding: 5px;
     margin-bottom: 5px;
@@ -87,4 +92,3 @@ form input[type=text] {
     color: #fff;
     background-color: #0090da;
 }
-
